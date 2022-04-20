@@ -17,7 +17,7 @@
             <div class="description">
               <h2>Adatok</h2>
               <label for="kertSzelesség"> <p><strong>Kertszélesség: </strong></p></label>
-              <input type="number" id="kertSzelesseg" v-model="kertSzelesseg" />
+              <input type="number" id="kertSzelesseg" v-model="kertSzelesseg" /><span>m</span>
               <label for="kertHosszusag"><p><strong> Kerthosszúság:</strong></p> </label>
               <input type="number" id="kertHosszusag" v-model="kertHosszusag" /><span>m</span>
               <button type="submit" class="glass2"><p><strong>Számol</strong></p> </button>
